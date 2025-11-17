@@ -1,0 +1,77 @@
+[
+  {
+    "login": "usuario0",
+    "senha": "6133ef8b7aa0bd1565ac49615e144a8b",
+    "listaEncomendas": {
+      "encomendas": [
+        {
+          "nomeCliente": "teste",
+          "telefoneWhatsApp": "(99) 99999-9999",
+          "tipoProduto": "BRIGADEIRO",
+          "sabor": "brigadeiro",
+          "tamanhoPeso": "10 gramas",
+          "dataEntrega": "Dec 25, 2025, 12:00:00 AM",
+          "horaEntrega": "19:10",
+          "valor": 100.5,
+          "sinalPago": 50.0,
+          "observacoes": "for�o 50 unidades vendidas",
+          "status": "PRONTO"
+        },
+        {
+          "nomeCliente": "ANA",
+          "telefoneWhatsApp": "(99) 99999-9999",
+          "tipoProduto": "TORTA",
+          "sabor": "abacaxi",
+          "tamanhoPeso": "700 g",
+          "dataEntrega": "Dec 10, 2025, 12:00:00 AM",
+          "horaEntrega": "18:00",
+          "valor": 50.0,
+          "sinalPago": 20.0,
+          "observacoes": "maçã",
+          "status": "EM_PRODUCAO"
+        },
+        {
+          "nomeCliente": "breno",
+          "telefoneWhatsApp": "(66) 66666-6666",
+          "tipoProduto": "BOLO",
+          "sabor": "abacaxi",
+          "tamanhoPeso": "1kg",
+          "dataEntrega": "Dec 5, 2025, 12:00:00 AM",
+          "horaEntrega": "14:00",
+          "valor": 65.0,
+          "sinalPago": 15.0,
+          "observacoes": "aaaaa",
+          "status": "EM_PRODUCAO"
+        }
+      ]
+    }
+  },
+  {
+    "login": "usuario1",
+    "senha": "6133ef8b7aa0bd1565ac49615e144a8b",
+    "listaEncomendas": {
+      "encomendas": []
+    }
+  },
+  {
+    "login": "usuario2",
+    "senha": "6133ef8b7aa0bd1565ac49615e144a8b",
+    "listaEncomendas": {
+      "encomendas": []
+    }
+  },
+  {
+    "login": "usuario3",
+    "senha": "6133ef8b7aa0bd1565ac49615e144a8b",
+    "listaEncomendas": {
+      "encomendas": []
+    }
+  },
+  {
+    "login": "usuario4",
+    "senha": "6133ef8b7aa0bd1565ac49615e144a8b",
+    "listaEncomendas": {
+      "encomendas": []
+    }
+  }
+]
