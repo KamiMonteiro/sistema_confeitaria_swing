@@ -24,7 +24,10 @@ public class Login extends JFrame {
         super();
         initialize();
         SistemaConfeitaria.desserializarUsuarios();
+<<<<<<< HEAD
         SistemaConfeitaria.desserializarTiposProdutos();
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
     }
 
     private void initialize()

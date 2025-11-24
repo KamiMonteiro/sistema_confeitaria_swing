@@ -37,7 +37,10 @@ public class App extends JFrame {
         menuBar.add(ajuda);
 
         JMenuItem encomendas = new JMenuItem("Encomendas");
+<<<<<<< HEAD
         JMenuItem tiposProdutos = new JMenuItem("Tipos de Produtos");
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
         JMenuItem relatorios = new JMenuItem("Relatórios");
         JMenuItem sair = new JMenuItem("Sair");
         JMenuItem ajudaItem = new JMenuItem("Ajuda");
@@ -51,6 +54,7 @@ public class App extends JFrame {
             }
         );
         
+<<<<<<< HEAD
         tiposProdutos.addActionListener(
             new ActionListener(){
                 public void actionPerformed(ActionEvent e){
@@ -59,6 +63,8 @@ public class App extends JFrame {
             }
         );
         
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
         relatorios.addActionListener(
             new ActionListener(){
                 public void actionPerformed(ActionEvent e){
@@ -98,7 +104,10 @@ public class App extends JFrame {
         );
         
         manutencao.add(encomendas);
+<<<<<<< HEAD
         manutencao.add(tiposProdutos);
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
         manutencao.add(relatorios);
         manutencao.addSeparator();
         manutencao.add(sair);

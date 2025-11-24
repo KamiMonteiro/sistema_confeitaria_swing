@@ -1,5 +1,6 @@
 package data;
 
+<<<<<<< HEAD
 public class TipoProduto {
     private String descricao;
     private int id; // ID único para identificação
@@ -17,6 +18,21 @@ public class TipoProduto {
     // Construtor completo
     public TipoProduto(int id, String descricao) {
         this.id = id;
+=======
+public enum TipoProduto {
+    BOLO("Bolo"),
+    TORTA("Torta"),
+    DOCINHOS("Docinhos"),
+    CUPCAKE("Cupcake"),
+    BRIGADEIRO("Brigadeiro"),
+    BEIJINHO("Beijinho"),
+    BEM_CASADO("Bem Casado"),
+    OUTROS("Outros");
+
+    private String descricao;
+
+    TipoProduto(String descricao) {
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
         this.descricao = descricao;
     }
 
@@ -24,6 +40,7 @@ public class TipoProduto {
         return descricao;
     }
 
+<<<<<<< HEAD
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
@@ -36,10 +53,13 @@ public class TipoProduto {
         this.id = id;
     }
 
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
     @Override
     public String toString() {
         return descricao;
     }
+<<<<<<< HEAD
 
     @Override
     public boolean equals(Object obj) {
@@ -53,5 +73,7 @@ public class TipoProduto {
     public int hashCode() {
         return descricao != null ? descricao.hashCode() : 0;
     }
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
 }
 

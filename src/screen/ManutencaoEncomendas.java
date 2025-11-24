@@ -68,6 +68,7 @@ public class ManutencaoEncomendas extends JDialog {
         initialize();
     }
 
+<<<<<<< HEAD
     // Recarrega os tipos de produtos no combo box
     private void recarregarTiposProdutos() {
         comboBoxTipoProduto.removeAllItems();
@@ -76,6 +77,8 @@ public class ManutencaoEncomendas extends JDialog {
         }
     }
 
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
     // Preenche os campos com os dados da encomenda
     private void preencheCampos() {
         try {
@@ -257,7 +260,13 @@ public class ManutencaoEncomendas extends JDialog {
         labelTipoProduto.setText("Tipo de Produto:");
         comboBoxTipoProduto.setSize(fieldWidth, fieldHeight);
         comboBoxTipoProduto.setLocation(150, yPos);
+<<<<<<< HEAD
         recarregarTiposProdutos();
+=======
+        for (TipoProduto tipo : TipoProduto.values()) {
+            comboBoxTipoProduto.addItem(tipo);
+        }
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
         yPos += spacing;
 
         // Sabor

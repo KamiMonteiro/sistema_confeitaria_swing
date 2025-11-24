@@ -8,7 +8,10 @@ import java.util.List;
 import data.Usuario;
 import data.Encomenda;
 import data.ListaEncomendas;
+<<<<<<< HEAD
 import data.TipoProduto;
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -21,9 +24,13 @@ import java.lang.reflect.Type;
 public final class SistemaConfeitaria {
     private static Usuario usuarioLogado;
     private static List<Usuario> usuarios = new ArrayList<>();
+<<<<<<< HEAD
     private static List<TipoProduto> tiposProdutos = new ArrayList<>();
     private static final String ARQUIVO_JSON = "dados.json";
     private static final String ARQUIVO_TIPOS_JSON = "tipos_produtos.json";
+=======
+    private static final String ARQUIVO_JSON = "dados.json";
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
 
     public static Usuario getUsuarioLogado() {
         return usuarioLogado;
@@ -42,6 +49,7 @@ public final class SistemaConfeitaria {
         return usuarioLogado.getListaEncomendas();
     }
 
+<<<<<<< HEAD
     // Métodos para gerenciar tipos de produtos
     public static List<TipoProduto> getTiposProdutos() {
         return tiposProdutos;
@@ -100,6 +108,8 @@ public final class SistemaConfeitaria {
         }
     }
 
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
     // Método removido - não é mais necessário
 
     // Método removido - não é mais necessário popular dados de agenda
@@ -123,9 +133,12 @@ public final class SistemaConfeitaria {
         // Adiciona adaptador customizado para parsear datas do formato do JSON
         gsonBuilder.registerTypeAdapter(Date.class, criarAdaptadorData());
         
+<<<<<<< HEAD
         // Adiciona adaptador customizado para parsear TipoProduto (pode vir como string do JSON antigo)
         gsonBuilder.registerTypeAdapter(TipoProduto.class, criarAdaptadorTipoProduto());
         
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
         Gson gson = gsonBuilder.create();
         try (FileReader reader = new FileReader(ARQUIVO_JSON)) {
             Type usuariosListType = new TypeToken<List<Usuario>>() {}.getType();
@@ -133,8 +146,11 @@ public final class SistemaConfeitaria {
             if (usuarios == null) {
                 usuarios = new ArrayList<>();
             }
+<<<<<<< HEAD
             // Converte tipos de produtos antigos (strings) para objetos
             converterTiposProdutosAntigos();
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
             System.out.println("Usuários desserializados com sucesso! Total: " + usuarios.size());
         } catch (IOException e) {
             e.printStackTrace();
@@ -145,6 +161,7 @@ public final class SistemaConfeitaria {
         }
     }
 
+<<<<<<< HEAD
     // Adaptador para converter strings antigas do JSON em objetos TipoProduto
     private static com.google.gson.JsonDeserializer<TipoProduto> criarAdaptadorTipoProduto() {
         return new com.google.gson.JsonDeserializer<TipoProduto>() {
@@ -214,6 +231,8 @@ public final class SistemaConfeitaria {
         }
     }
 
+=======
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
     // Cria um adaptador customizado para parsear datas em diferentes formatos
     private static com.google.gson.JsonDeserializer<Date> criarAdaptadorData() {
         return new com.google.gson.JsonDeserializer<Date>() {

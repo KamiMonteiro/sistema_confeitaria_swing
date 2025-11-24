@@ -207,7 +207,11 @@ public class RelatoriosEncomendas extends JDialog {
         comboBoxTipoProduto.setSize(200, 25);
         comboBoxTipoProduto.setLocation(150, yPos);
         comboBoxTipoProduto.addItem(null); // Opção "Todos"
+<<<<<<< HEAD
         for (TipoProduto tipo : SistemaConfeitaria.getTiposProdutos()) {
+=======
+        for (TipoProduto tipo : TipoProduto.values()) {
+>>>>>>> 72d25b3042a27cd145dccd5015782b2ce9a7769c
             comboBoxTipoProduto.addItem(tipo);
         }
         yPos += 35;
