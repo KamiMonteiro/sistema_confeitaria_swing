@@ -7,40 +7,49 @@
         {
           "nomeCliente": "teste",
           "telefoneWhatsApp": "(99) 99999-9999",
-          "tipoProduto": "BRIGADEIRO",
+          "tipoProduto": {
+            "descricao": "Bolo",
+            "id": 1
+          },
           "sabor": "brigadeiro",
-          "tamanhoPeso": "10 gramas",
-          "dataEntrega": "Dec 25, 2025, 12:00:00 AM",
+          "tamanhoPeso": "850 gramas",
+          "dataEntrega": "Dec 30, 2025, 12:00:00 AM",
           "horaEntrega": "19:10",
           "valor": 100.5,
-          "sinalPago": 50.0,
-          "observacoes": "for�o 50 unidades vendidas",
+          "sinalPago": 85.4,
+          "observacoes": "forão 100 pedidos",
           "status": "PRONTO"
-        },
-        {
-          "nomeCliente": "ANA",
-          "telefoneWhatsApp": "(99) 99999-9999",
-          "tipoProduto": "TORTA",
-          "sabor": "abacaxi",
-          "tamanhoPeso": "700 g",
-          "dataEntrega": "Dec 10, 2025, 12:00:00 AM",
-          "horaEntrega": "18:00",
-          "valor": 50.0,
-          "sinalPago": 20.0,
-          "observacoes": "maçã",
-          "status": "EM_PRODUCAO"
         },
         {
           "nomeCliente": "breno",
           "telefoneWhatsApp": "(66) 66666-6666",
-          "tipoProduto": "BOLO",
+          "tipoProduto": {
+            "descricao": "Bolo",
+            "id": 3
+          },
           "sabor": "abacaxi",
           "tamanhoPeso": "1kg",
-          "dataEntrega": "Dec 5, 2025, 12:00:00 AM",
+          "dataEntrega": "Nov 30, 2025, 5:19:24 PM",
           "horaEntrega": "14:00",
           "valor": 65.0,
           "sinalPago": 15.0,
           "observacoes": "aaaaa",
+          "status": "EM_PRODUCAO"
+        },
+        {
+          "nomeCliente": "teste 2",
+          "telefoneWhatsApp": "(59) 68102-0397",
+          "tipoProduto": {
+            "descricao": "Torta",
+            "id": 2
+          },
+          "sabor": "limão",
+          "tamanhoPeso": "100",
+          "dataEntrega": "Dec 11, 2025, 12:00:00 AM",
+          "horaEntrega": "15:00",
+          "valor": 158.4,
+          "sinalPago": 100.0,
+          "observacoes": "teste teste",
           "status": "EM_PRODUCAO"
         }
       ]
